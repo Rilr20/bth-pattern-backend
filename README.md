@@ -1,2 +1,3 @@
 # bth-pattern-backen
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Rilr20/bth-pattern-backend/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/Rilr20/bth-pattern-backend/?branch=main) [![Code Coverage](https://scrutinizer-ci.com/g/Rilr20/bth-pattern-backend/badges/coverage.png?b=main)](https://scrutinizer-ci.com/g/Rilr20/bth-pattern-backend/?branch=main) [![Build Status](https://scrutinizer-ci.com/g/Rilr20/bth-pattern-backend/badges/build.png?b=main)](https://scrutinizer-ci.com/g/Rilr20/bth-pattern-backend/build-status/main) [![Build Status](https://app.travis-ci.com/Rilr20/bth-pattern-backend.svg?branch=main)](https://app.travis-ci.com/Rilr20/bth-pattern-backend)
