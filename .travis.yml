@@ -6,7 +6,7 @@ php:
 
 before_script:
     #- make install check
-    - make install
+    - sudo make install
 
 script:
     - make test
