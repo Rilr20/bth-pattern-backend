@@ -21,7 +21,6 @@ class User extends Authenticatable
         'email',
         'password',
         'balance',
-        'subscription',
         'card_info',
         'csv',
         'expiration_date'
