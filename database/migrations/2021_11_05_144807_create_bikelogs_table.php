@@ -18,9 +18,9 @@ class CreateBikelogsTable extends Migration
             $table->float('start_x');
             $table->float('start_y');
             $table->dateTime('start_time');
-            $table->float('stop_x');
-            $table->float('stop_y');
-            $table->dateTime('stop_time');
+            $table->float('stop_x')->nullable();
+            $table->float('stop_y')->nullable();
+            $table->dateTime('stop_time')->nullable();
             $table->unsignedBigInteger('customer_id');
             $table->unsignedBigInteger('bike_id');
             $table->timestamps();

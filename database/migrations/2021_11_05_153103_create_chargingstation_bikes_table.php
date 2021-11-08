@@ -18,7 +18,7 @@ class CreateChargingstationBikesTable extends Migration
             $table->unsignedBigInteger('chargingstation_id');
             $table->unsignedBigInteger('bike_id');
             $table->dateTime('arrival');
-            $table->dateTime('departure');
+            $table->dateTime('departure')->nullable();
             $table->timestamps();
 
             $table->foreign('chargingstation_id')->references('id')->on('chargingstations')->onDelete('cascade');
